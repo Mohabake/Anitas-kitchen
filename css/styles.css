@@ -1,244 +1,381 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
-    <title>Anitas Kitchen</title>
-  </head>
-  <body>
 
-    <div id="wrapper" class="col-md-12">
-      <div id="header" class="col-md-12">
-        </div>
-        <div id="Logo">
-          <img src="images/logoBig.png">
-          <p class="header-text">We Provide The Best Food </p><p class="header-text">At The <strong>Right Price</strong></p>
-        </div>
-        </div>
+#wrapper{
+  background-color: pink;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: block;
+}
 
-        <div class="nav-bar">
-          <div class="nav-item">
-            <div id="nav-first">
-            <br><br><p id="Happyhour"><strong>Happy Hour</strong></p>
-            </div>
-            <div id="nav-second">
-              <br><br><p id="PartyTime"><strong>Party Time</strong></p>
-
-            </div>
-      </div>
-      <div id = "nav2" class="nav-item">
-<p class="navtext">Breakfast</p>  </div>
-   <div id = "nav3" class="nav-item">
-<p class="navtext">Lunch</p>
-</div>
-</div>
-   <div id = "nav4" class="nav-item">
-<p class="navtext">Dinner</p>
-
-  </div>
-
-    </div>
-
-    <div class="content">
-
-      <div class="content-wrapper">
-
-        <div id="content-first" class="content-items">
-
-          <div id="firstimg">
-            <!--image card  -->
-            <div id="firstimgwrapper">
-            <div id="top-img">
-              <img id="imgtop" src="images/fastFood1.jpg" alt="Plate img">
-            </div>
-
-            <div id="bottom-img">
-              <img id="imgbottom" src="images/fastFood2.jpg" alt="Plate img">
-            </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div id="content-second" class="content-items">
-          <div id="text-container">
-<h2>Fast Food</h2>
-<p><strong>You'll love our delicious fast food</strong></p>
-<p></p>
-<p>
-  <button class="btn-submit">view gallery</button>
-</p>
-          </div>
-        </div>
-
-        <div id="content-third" class="content-items">
-          <div id="text-container2">
-<h2>Drinks</h2>
-<p><strong>We also produce delicious drinks</strong></p>
-<p>Lorem ipsum dolor sit amet, vitae suspendisse vestibulum, viverra dignissim vel, dis enim diam vel dui metus, sollicitudin a, tellus massa a tristique donec. Aliquet sed a morbi id nibh, libero id vestibulum, lectus amet, sapien pellentesque imperdiet consequat fermentum magna interdum, nam urna vehicula lacus congue mollis. Sapiente ut, vitae augue, nunc proin purus In amet id porttitor natoque,</p>
-<p>
-  <button class="btn-submit">view gallery</button>
-</p>
-          </div>
-        </div>
-
-        <div id="content-fourth" class="content-items">
-          <div id="fourthimg">
-            <div id="fourthimgwrapper">
-
-<div id="verticalimg">
-<img id="img1" src="images/drink1.jpg" alt="">
-</div>
-<div id="verticalimg2">
-  <img id="img2" src="images/drink2.jpg" alt="">
-
-</div>
-
-</div>
-
-          </div>
-        </div>
-      </div>
-      <!-- content-wrapper ends here -->
-
-      <div class="content-wrapper2">
-        <br>
-        <div class="bottomcontent">
-        <div class="navbtnswrapper">
-          <button id="btn1" class="navbtn">Fast Food</button>
-          <button id="btn2" class="navbtn">Drinks
-</button>
-          <button id="btn3" class="navbtn">Chicken</button>
-          <button id="btn4" class="navbtn">Rice</button>
+#header{
+  height:500px;
+  background-color: red;
+  background: url(../images/backgrounds/landing.jpg);
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  overflow: hiden;
 
 
-        </div>
-        <div class="bottomimgsarrow">
-<
-        </div>
+}
 
-        <div class="bottomimgs">
-        <div id="imagebottom1" class="image">
+#Logo{
+  position: absolute;
+  top:100px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  width: 300px;
+  /*background-color: blue;*/
+  margin:auto;
+  overflow: hidden;
+}
 
-        </div>
-        <div class="imagetxt">
-        <p>Chicken Burger</p>
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ }
+ .header-text{
+   margin:auto;
+   color: white;
+   width: 75%;
+   text-align: center;
+   font-size: 20px;
+ }
 
-        </div>
-        </div>
+ .nav-bar{
+   background-color: green;
+   width: 100%;
+   height: 200px;
+   display: inline;
 
-        <div class="bottomimgs">
-          <div id="imagebottom2"  class="image">
+ }
 
-          </div>
-          <div class="imagetxt">
-            <p>Beef Burger</p>
+ .nav-item{
+   width: 25%;
+   height: 200px;
+   float: left;
+ }
 
-          </div>
+ #nav-first{
+   background-color:white;
+   width: 100%;
+   height:100px;
+ }
 
-        </div>
+ #nav-second{
+   background-color:orange;
+   width: 100%;
+   height:100px;
+ }
 
-        <div class="bottomimgs">
-          <div id="imagebottom3"  class="image">
+ #Happyhour{
+   width:100px;
+   margin: auto;
+ }
 
-          </div>
-          <div class="imagetxt">
-            <p>Chicken Pizza</p>
+#PartyTime{
+  width:100px;
+  margin: auto;
+}
+ #nav2{
 
-          </div>
+   background: url(../images/foodtop/breakfast.jpg);
+ }
 
-        </div>
+  #nav3{
+    cursor: pointer;
+      transition-duration: 0.4s;
+      background: url(../images/foodtop/lunch.jpg);
 
-        <div class="bottomimgsarrow">
->
-        </div>
-        </div>
-      </div>
-      <!--mjyfuy  -->
+ }
+ #nav4 {
+   cursor: pointer;
+  transition-duration: 0.4s;
+   background: url(../images/foodtop/dinner.jpg);
+ }
 
-      <div class="bottomcard">
-        <br>
-        <div class="card">
-<div class="cardleft">
-  <div class="leftcontent">
-    <p>Our Happy Customers</p>
-<p>George Richard</p>
-<p>Greatfood! Menu is awsome, there foods are not only great but also in the right price.I'll highly recommend them :)</p>
-<p id=imageicon>
-  <strong class="prev"><</strong>
-  <img src="images/customers/p1.png" alt="">
-  <img src="images/customers/p2.png" alt="">
-  <img src="images/customers/p3.png" alt="">
-  <strong class="prev">></strong>
+#nav3:hover:focus #nav4:hover:focus{
+  color: #f1f1f1;
 
+}
 
-</p>
-  </div>
+ .navtext{
+   font-weight: 400px;
+   margin:auto;
+   color: black;
+ width: 100px;
+ margin-top: 100px;
+ }
 
-</div>
-<div class="cardright">
-  <div class="rightcontent">
-    <p>About Menu</p>
-    <p>Lorem ipsum dolor sit amet, vitae suspendisse vestibulum,
-      viverra dignissim vel, dis enim diam vel dui metus, sollicitudin
-      a, tellus massa a tristique donec. Aliquet sed a morbi id nibh, libero
-       id vestibulum, lectus amet, sapien pellentesque imperdiet consequat fermentum
-       magna interdum.</p>
+ .content{
+   width:100%;
+   background-color: white;
 
-  </div>
+ }
 
+ .content-wrapper{
+   width: 70%;
+   height:1000px;
+   background-color: white;
+   margin: auto;
+   margin-top: 30px;
+ }
 
-</div>
-        </div>
-      </div>
-<!--jhfojyi  -->
-      <div class="bottomcard2">
-        <br>
-<div class="contact">
-  <p><strong>Get our daily food items delivered to your email</strong></p>
-  <p>
-  <input id="inputfield" type="text" name="" value="" placeholder="Your email">
-  <button id="subscribe" type="button" name="button">Subscribe</button></p>
+ .content-items{
+   background-color: transparent;
+   float: left;
+   height:40%;
+   width:50%;
+ }
 
-</div>
-      </div>
-      <!--ghuy  -->
-      <div class="bottomcard3">
-<div class="footercontent">
-  <p>
-    <img src="images/footerlogos/logo_white.png" alt="">
-    MENU
-  </p>
-  <p>
-  Thats What We Are</p>
-  <p id="footerimg">
-    <img src="images/footerlogos/facebook.png" alt="">
-    <img src="images/footerlogos/twitter.png" alt="">
-    <img src="images/footerlogos/pinterest.png" alt="">
-  </p>
-  <p>2016 Menu Restaurant</p>
-</div>
-      </div>
-      <!--ghuy  -->
-
-    </div>
+ #firstimg{
+  width: 400px;
+  height:300px;
+  background-color: white;
+  margin:auto;
+  margin-top:20px;
+position: relative;
+box-shadow: 1px 0px 6px 5px rgba(87,84,87,0.63);
+}
 
 
+#top-img{
+  width:100%;
+   height:50%;
+}
+#imgtop, #imgbottom{
+  width: 100%;
+  height:100%;
+}
 
-      </div>
+#bottom-img{
+width:100%;
+ height:50%;
+}
+.btn-submit {
+  font-weight: 700;
+      background: white;
+      z-index: 3;
+       color: #1172c4;
+       font-size: 14px;
+       border-color: #1172c4;
+       border-style: solid;
+       border-width: 2px;
+       border-radius: 2px;
+       padding: 10px 40px;
+       transition: all 0.2s linear;
+       text-transform: capitalize;
+
+}
+#text-container{
+  width: 70%;
+padding-left:5%;
+}
+
+#text-container2{
+  width: 70%;
+padding-right:5%;
+text-align: right;
+float:right;
+/*margin-left: 20%;*/
+}
+
+#verticalimg{
+float: left;
+width: 50%;
+height: 100%;
+}
+
+#verticalimg2{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+#img1, #img2{
+  width: 100%;
+  height:100%;
+}
+#fourthimg{
+  width: 400px;
+  height:300px;
+  background-color: white;
+  margin:auto;
+  margin-top:30px;
+  position: relative;
+box-shadow: 1px 0px 6px 5px rgba(87,84,87,0.63);
+}
+#fourthimgwrapper, #firstimgwrapper{
+  position: absolute;
+  width: 350px;
+  height:250px;
+  margin:25px;
+  background-color: blue;
+}
+
+.content-wrapper2{
+  width: 100%;
+  height:400px;
+  background: url(../images/backgrounds/foodsBg.jpg);
+}
+
+.bottomcontent{
+  width: 80%;
+  height: 80%;
+  margin:auto;
+  margin-top: 20px;
+  background-color: white;
+  position: relative;
+}
+.navbtn{
+  width: 25%;
+  height:50px;
+  padding:0;
+  margin: 0;
+  float: left;
+  background-color: lightgrey;
+  border:  none;
+  border-right: solid 1px grey;
+
+}
+#btn1{
+  background-color: white;
+}
+.bottomimgs{
+  width: 30%;
+  height:270px;
+  float: left;
+
+}
+
+.bottomimgsarrow{
+  width: 4%;
+  height:270px;
+  float: left;
+}
+#imagebottom1{
+  background: url(../images/fastfood/chickenBurger.jpg);
+}
+#imagebottom2{
+  background: url(../images/fastfood/beefBurger.jpg);
+}#imagebottom3{
+  background: url(../images/fastfood/chickenPizza.jpg);
+}
+.image{
+  background-color: maroon;
+  margin: auto;
+  margin-top: 15px;
+  width: 90%;
+  height: 70%;
+}
+
+.imagetxt{
+  margin: auto;
+  width: 90%;
+  height: 10%;
+}
+
+.bottomcard{
+  width: 100%;
+  height:400px;
+  background-color: white;
+  position: relative;
+}
+.card{
+    width: 80%;
+    height:250px;
+    background-color: white;
+    margin:auto;
+    margin-top: 20px;
+  box-shadow: 1px 0px 6px 5px rgba(87,84,87,0.63);
+}
+
+.bottomwraper{
+  width: 100%;
+  position: absolute;
+}
+.prev{
+  font-weight:bolder;
+  color: orange;
+  margin-bottom:10px;
+}
+
+.cardleft{
+  float: left;
+  width: 60%;
+}
+
+.cardright{
+  float: left;
+  width: 30%;
+}
+
+.leftcontent{
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  border-right: solid 1px grey;
+  height: 200px;
+}
+#imageicon{
+  float: left;
+  text-align: center;
+  margin-left: 60px
+}
+.rightcontent{
+  width: 250px;
+  margin: auto;
+  text-align: center;
+  height: 250px;
+}
+
+.bottomcard2{
+  width: 100%;
+  height:200px;
+  background: url(../images/backgrounds/subscribe.jpg);
+}
 
 
+.bottomcard3{
+  width: 100%;
+  height:200px;
+background-color: #F15A29;
+position:absolute;
+}
 
+.contact{
+  width: 400px;
+  margin: auto;
+  color: white;
 
-  </body>
-</html>
-<!--
-<div class="bottomcard">
-<div class="card">
-</div>
-</div> -->
+}
+#subscribe{
+  font-weight: 700;
+      background: orange;
+       color: white;
+       font-size: 14px;
+       border-radius: 2px;
+       border: none;
+       padding: 8px 40px;
+       transition: all 0.2s linear;
+}
+
+#inputfield{
+background-color: white;
+width: 200px;
+opacity: 0.7;
+border: none;
+padding: 8px;
+margin-right: 10px;
+border-radius: 2px;
+}
+.footercontent{
+  width: 150px;
+  margin: auto;
+  color: white;
+}
+#footerimg{
+  float: left;
+}
