@@ -1,336 +1,244 @@
-body{
-margin: 0;
-font-family: 'Handlee', Open Sans;
-}
-.container-fluid {
-  padding-top: 0;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+    <title>Anitas Kitchen</title>
+  </head>
+  <body>
 
-/*-------MEDIA, OVERLAY AND TEXT----------*/
-.media{
-padding: 0;
-height: 850px;
-width:100%;
-background-image: url(../images/landing.jpg);
- background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-margin-top: 70px;
-}
-.media2{
-padding: 0;
-height: 600px;
-width:100%;
-background-image: url(../images/foodsBg.jpg);
- background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
-}
-.media3{
-padding: 0;
-height: 300px;
-width:100%;
-background-image: url(../images/subscribe.jpg);
- background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
-}
-.overlay{
-padding: 0;
-margin: auto;
-width: 100%;
-height: 850px;
-background: black;
-background:rgba(0,0,0,0.0);
-}
+    <div id="wrapper" class="col-md-12">
+      <div id="header" class="col-md-12">
+        </div>
+        <div id="Logo">
+          <img src="images/logoBig.png">
+          <p class="header-text">We Provide The Best Food </p><p class="header-text">At The <strong>Right Price</strong></p>
+        </div>
+        </div>
 
-.header{
-margin-top: 3%;
-text-align: center;
-font-family: 'Handlee', Open Sans;
-color: white;
-font-size: 60px;
-}
-.logo{
-margin-top: 4%;
-text-align: center;
-}
-.men{
-margin-top: 20px;
-margin-left: 20px;
-background-color: transparent;
-height: 50px;
-width: 75px;
-}
-/*-------END MEDIA, OVERLAY AND TEXT----------*/
+        <div class="nav-bar">
+          <div class="nav-item">
+            <div id="nav-first">
+            <br><br><p id="Happyhour"><strong>Happy Hour</strong></p>
+            </div>
+            <div id="nav-second">
+              <br><br><p id="PartyTime"><strong>Party Time</strong></p>
 
-.bg-1{
-padding: 0;
-}
-.bg-10{
-padding: 0;
-}
-.bg-00{
-background-color:#F15A29;
-}
+            </div>
+      </div>
+      <div id = "nav2" class="nav-item">
+<p class="navtext">Breakfast</p>  </div>
+   <div id = "nav3" class="nav-item">
+<p class="navtext">Lunch</p>
+</div>
+</div>
+   <div id = "nav4" class="nav-item">
+<p class="navtext">Dinner</p>
 
-.happy{
-height: 119px;
-width:300px;
-}
+  </div>
 
-.overlay-mini {
-position: absolute;
-bottom: 0;
-right: 0;
-background:rgba(0,0,0,0.0);
-overflow: hidden;
-width: 100%;
-height: 100%;
-transition: .5s ease;
-}
+    </div>
 
-.bg-1:hover .overlay-mini {
-position: absolute;
-bottom: 0;
-right: 0;
-background:rgba(250,250,250,0.5);
-overflow: hidden;
-width: 100%;
-height: 100%;
-transition: .5s ease;
-}
-.bg-1:hover .text {
-color: #000000;
-}
+    <div class="content">
 
-.text {
-color: white;
-font-size: 40px;
-font-family: 'Handlee', Open Sans;
-padding: 16px 32px;
-white-space: nowrap;
-position: absolute;
-overflow: hidden;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-}
-.textt {
-text-align: center;
-margin-top: 2%;
-color: #ffffff;
-}
-#text1{
-padding: 5%;
-text-align: left;
-}
-#text2{
-padding: 5%;
-text-align: right;
-}
-#text3{
-padding: 5%;
-text-align: center;
-}
+      <div class="content-wrapper">
 
-.fasts{
-margin-bottom: 10%;
-margin-left: 10%;
-margin-right: 30%;
-margin-top: 10%;
-padding:0;
-border-color: transparent;
-border-style: solid;
-border-width: 5px;
-border-radius: 5px;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.cust{
-width: 80%;
-margin-top: 10%;
-margin-bottom: 10%;
-margin-left: 10%;
-margin-right: 10%;
-border-color: transparent;
-border-style: solid;
-border-width: 5px;
-border-radius: 5px;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.party{
-height: 400px;
-width: 80%;
-margin-top: 100px;
-margin-bottom: 100px;
-margin-left: 10%;
-margin-right: 10%;
-background-color: #ffffff;
-}
-#burger{
-	text-align: center;
-	padding: 50px;
-}
-.partyhead{
-height: 50px;
-width: 100%;
-background-color: #ccc;
-}
-.customers{
-padding: 10%;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.mail{
-text-align: center;
-height: 200px;
-width: 80%;
-margin-top: 20px;
-margin-bottom: 30px;
-margin-left: 10%;
-margin-right: 10%;
-background-color: transparent;
-}
-.formStyle {
-margin: 20px;
-background:rgba(250,250,250,0.5);
-padding: 6px;
-width: 40%;
-margin-bottom: 20px;
-border-bottom-width: 1px;
-border-bottom-style: none;
-border-bottom-color: #ecf0f1;
-border-top-style: none;
-border-right-style: none;
-border-left-style: none;
-font-size: 28px;
-font-weight: 100;
-color: #ffffff;
-border-radius: 5px;
-}
+        <div id="content-first" class="content-items">
 
-.formButton {
-margin: 20px;
-background-color:#F15A29;
-display:inline-block;
-color:#ffffff;
-font-size:28px;
-font-weight: 500;
-padding:6px 50px;
-text-decoration:none;
-border-radius: 5px;
-}
+          <div id="firstimg">
+            <!--image card  -->
+            <div id="firstimgwrapper">
+            <div id="top-img">
+              <img id="imgtop" src="images/fastFood1.jpg" alt="Plate img">
+            </div>
 
-.formButton:hover {
-background-color: #27ae60;
-color:#ffffff;
-}
+            <div id="bottom-img">
+              <img id="imgbottom" src="images/fastFood2.jpg" alt="Plate img">
+            </div>
+            </div>
 
-.formButton:active {
-position:relative;
-top:3px;
-}
-input:focus {
-outline: none;
-}
+          </div>
+        </div>
 
-::-webkit-input-placeholder {
-color: #ecf0f1;
-}
+        <div id="content-second" class="content-items">
+          <div id="text-container">
+<h2>Fast Food</h2>
+<p><strong>You'll love our delicious fast food</strong></p>
+<p></p>
+<p>
+  <button class="btn-submit">view gallery</button>
+</p>
+          </div>
+        </div>
 
-:-moz-placeholder {
-color: #ecf0f1;
-}
+        <div id="content-third" class="content-items">
+          <div id="text-container2">
+<h2>Drinks</h2>
+<p><strong>We also produce delicious drinks</strong></p>
+<p>Lorem ipsum dolor sit amet, vitae suspendisse vestibulum, viverra dignissim vel, dis enim diam vel dui metus, sollicitudin a, tellus massa a tristique donec. Aliquet sed a morbi id nibh, libero id vestibulum, lectus amet, sapien pellentesque imperdiet consequat fermentum magna interdum, nam urna vehicula lacus congue mollis. Sapiente ut, vitae augue, nunc proin purus In amet id porttitor natoque,</p>
+<p>
+  <button class="btn-submit">view gallery</button>
+</p>
+          </div>
+        </div>
 
-::-moz-placeholder
-color: #ecf0f1;
-}
+        <div id="content-fourth" class="content-items">
+          <div id="fourthimg">
+            <div id="fourthimgwrapper">
 
-:-ms-input-placeholder {
-color: #ecf0f1;
-}
-.footer{
-padding: 0;
-height: 300px;
-width:100%;
-background-color:#F15A29;
-}
-.social{
-text-align: center;
-margin-top: 3%;
-color: #ffffff;
-}
+<div id="verticalimg">
+<img id="img1" src="images/drink1.jpg" alt="">
+</div>
+<div id="verticalimg2">
+  <img id="img2" src="images/drink2.jpg" alt="">
 
-/*-----Clickable menu------*/
-.overlayMenu {
-height: 100%;
-width: 0;
-position: fixed;
-z-index: 1;
-top: 0;
-left: 0;
-background-color: #F15A29;
-overflow-x: hidden;
-transition: 0.5s;
-}
+</div>
 
-.overlay-content {
-position: relative;
-top: 25%;
-width: 100%;
-text-align: center;
-margin-top: 30px;
-}
+</div>
 
-.overlayMenu a {
-padding: 8px;
-text-decoration: none;
-font-size: 36px;
-color: #000000;
-display: block;
-transition: 0.3s;
-}
+          </div>
+        </div>
+      </div>
+      <!-- content-wrapper ends here -->
 
-.overlayMenu a:hover, .overlayMenu a:focus {
-color: #f1f1f1;
-}
+      <div class="content-wrapper2">
+        <br>
+        <div class="bottomcontent">
+        <div class="navbtnswrapper">
+          <button id="btn1" class="navbtn">Fast Food</button>
+          <button id="btn2" class="navbtn">Drinks
+</button>
+          <button id="btn3" class="navbtn">Chicken</button>
+          <button id="btn4" class="navbtn">Rice</button>
 
-.overlayMenu .closebtn {
-position: absolute;
-top: 20px;
-right: 45px;
-font-size: 60px;
-}
 
-@media screen and (max-height: 450px) {
-.overlayMenu a {font-size: 20px}
-.overlayMenu .closebtn {
-font-size: 40px;
-top: 15px;
-right: 35px;
-}
-}
+        </div>
+        <div class="bottomimgsarrow">
+<
+        </div>
 
-/*---BUTTONS-----*/
-.button {
-border: none;
-color: #F15A29;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 18px;
-margin: 4px 2px;
-cursor: pointer;
-border-radius: 5px;
-}
+        <div class="bottomimgs">
+        <div id="imagebottom1" class="image">
 
-.button1 {
-background-color: white;
-color: #F15A29;
-border: 2px solid #F15A29;
-}
+        </div>
+        <div class="imagetxt">
+        <p>Chicken Burger</p>
+
+        </div>
+        </div>
+
+        <div class="bottomimgs">
+          <div id="imagebottom2"  class="image">
+
+          </div>
+          <div class="imagetxt">
+            <p>Beef Burger</p>
+
+          </div>
+
+        </div>
+
+        <div class="bottomimgs">
+          <div id="imagebottom3"  class="image">
+
+          </div>
+          <div class="imagetxt">
+            <p>Chicken Pizza</p>
+
+          </div>
+
+        </div>
+
+        <div class="bottomimgsarrow">
+>
+        </div>
+        </div>
+      </div>
+      <!--mjyfuy  -->
+
+      <div class="bottomcard">
+        <br>
+        <div class="card">
+<div class="cardleft">
+  <div class="leftcontent">
+    <p>Our Happy Customers</p>
+<p>George Richard</p>
+<p>Greatfood! Menu is awsome, there foods are not only great but also in the right price.I'll highly recommend them :)</p>
+<p id=imageicon>
+  <strong class="prev"><</strong>
+  <img src="images/customers/p1.png" alt="">
+  <img src="images/customers/p2.png" alt="">
+  <img src="images/customers/p3.png" alt="">
+  <strong class="prev">></strong>
+
+
+</p>
+  </div>
+
+</div>
+<div class="cardright">
+  <div class="rightcontent">
+    <p>About Menu</p>
+    <p>Lorem ipsum dolor sit amet, vitae suspendisse vestibulum,
+      viverra dignissim vel, dis enim diam vel dui metus, sollicitudin
+      a, tellus massa a tristique donec. Aliquet sed a morbi id nibh, libero
+       id vestibulum, lectus amet, sapien pellentesque imperdiet consequat fermentum
+       magna interdum.</p>
+
+  </div>
+
+
+</div>
+        </div>
+      </div>
+<!--jhfojyi  -->
+      <div class="bottomcard2">
+        <br>
+<div class="contact">
+  <p><strong>Get our daily food items delivered to your email</strong></p>
+  <p>
+  <input id="inputfield" type="text" name="" value="" placeholder="Your email">
+  <button id="subscribe" type="button" name="button">Subscribe</button></p>
+
+</div>
+      </div>
+      <!--ghuy  -->
+      <div class="bottomcard3">
+<div class="footercontent">
+  <p>
+    <img src="images/footerlogos/logo_white.png" alt="">
+    MENU
+  </p>
+  <p>
+  Thats What We Are</p>
+  <p id="footerimg">
+    <img src="images/footerlogos/facebook.png" alt="">
+    <img src="images/footerlogos/twitter.png" alt="">
+    <img src="images/footerlogos/pinterest.png" alt="">
+  </p>
+  <p>2016 Menu Restaurant</p>
+</div>
+      </div>
+      <!--ghuy  -->
+
+    </div>
+
+
+
+      </div>
+
+
+
+
+  </body>
+</html>
+<!--
+<div class="bottomcard">
+<div class="card">
+</div>
+</div> -->
