@@ -10,7 +10,7 @@
 #header{
   height:500px;
   background-color: red;
-  background: url(../images/backgrounds/landing.jpg);
+  background: url(../images/landing.jpg);
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -81,19 +81,19 @@ html, body {
 }
  #nav2{
 
-   background: url(../images/foodtop/breakfast.jpg);
+   background: url(../images/breakfast.jpg);
  }
 
   #nav3{
     cursor: pointer;
       transition-duration: 0.4s;
-      background: url(../images/foodtop/lunch.jpg);
+      background: url(../images/lunch.jpg);
 
  }
  #nav4 {
    cursor: pointer;
   transition-duration: 0.4s;
-   background: url(../images/foodtop/dinner.jpg);
+   background: url(../images/dinner.jpg);
  }
 
 #nav3:hover:focus #nav4:hover:focus{
@@ -218,7 +218,7 @@ box-shadow: 1px 0px 6px 5px rgba(87,84,87,0.63);
 .content-wrapper2{
   width: 100%;
   height:400px;
-  background: url(../images/backgrounds/foodsBg.jpg);
+  background: url(../images/foodsBg.jpg);
 }
 
 .bottomcontent{
@@ -256,12 +256,12 @@ box-shadow: 1px 0px 6px 5px rgba(87,84,87,0.63);
   float: left;
 }
 #imagebottom1{
-  background: url(../images/fastfood/chickenBurger.jpg);
+  background: url(../images/chickenBurger.jpg);
 }
 #imagebottom2{
-  background: url(../images/fastfood/beefBurger.jpg);
+  background: url(../images/beefBurger.jpg);
 }#imagebottom3{
-  background: url(../images/fastfood/chickenPizza.jpg);
+  background: url(../images/chickenPizza.jpg);
 }
 .image{
   background-color: maroon;
@@ -334,7 +334,7 @@ box-shadow: 1px 0px 6px 5px rgba(87,84,87,0.63);
 .bottomcard2{
   width: 100%;
   height:200px;
-  background: url(../images/backgrounds/subscribe.jpg);
+  background: url(../images/subscribe.jpg);
 }
 
 
